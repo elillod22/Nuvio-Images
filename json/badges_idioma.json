@@ -632,13 +632,14 @@
       "name": "Latino",
       "groupId": "glang",
       "isEnabled": true,
-      "pattern": "(?i)(?<![^\\s\\[(_\\-.,])(latino|latam|lat|es[-_.]?(?:mx|la|419)|dual[-_. ]?lat)(?![ .\\-_]?sub(title)?s?)(?=[\\s)\\]_.\\-,]|$)",
-      "imageURL": "https://raw.githubusercontent.com/elillod22/Nuvio-Images/refs/heads/main/badges/idioma/latino.webp",
-      "type": "filter",
-      "tagColor": "#24BBDEFB",
-      "borderColor": "#BBDEFB",
-      "textColor": "#BBDEFB",
-      "tagStyle": "filled"
+       "pattern": "(?i)(?<![^\\s\\[(_\\-.,])(latino|latam|lat|es[-_.]?(?:mx|la|419)|dual[-_. ]?lat)(?![ .\\-_]?sub(title)?s?)(?=[\\s)\\]_.\\-,]|$)",
+      "imageURL": "https://raw.githubusercontent.com/vowl313/NardBadges/refs/heads/main/lat.png",
+      "tagColor": "#00000000",
+      "borderColor": "#FF35B879",
+      "textColor": "#FFFFFFFF",
+      "tagStyle": "bordered",
+      "isEnabled": true,
+      "type": "filter"
     },
     {
       "id": "sub_english",
