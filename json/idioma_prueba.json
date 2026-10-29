@@ -1,0 +1,39 @@
+{
+  "groups": [
+    {
+      "borderColor": "#000000",
+      "color": "#000000",
+      "id": "glang",
+      "isExpanded": true,
+      "name": "Language"
+    },
+  ],
+  "filters": [
+	{
+      "id": "lang_latino",
+      "name": "Latino",
+      "groupId": "glang",
+      "isEnabled": true,
+      "pattern": "(?i)(?<![^\\s\\[(_\\-.,])(latino|latam|lat|es[-_.]?(?:mx|la|419)|dual[-_. ]?lat)(?![ .\\-_]?sub(title)?s?)(?=[\\s)\\]_.\\-,]|$)",
+      "imageURL": "https://raw.githubusercontent.com/elillod22/Nuvio-Images/refs/heads/main/badges/idioma/latino.webp",
+      "tagColor": "#FFFFFFFF",
+      "borderColor": "#FFFFFFFF",
+      "textColor": "#FFFFFFFF",
+      "tagStyle": "bordered",
+      "type": "filter"
+    },
+    {
+      "id": "lang_english",
+      "name": "English",
+      "groupId": "glang",
+      "isEnabled": true,
+      "pattern": "(?i)(?<![A-Za-z0-9])(english|eng|en[-_. ]?(us|gb))(?![A-Za-z0-9])",
+      "imageURL": "https://raw.githubusercontent.com/elillod22/Nuvio-Images/refs/heads/main/badges/idioma/ingles.webp",
+      "tagColor": "#FFFFFFFF",
+      "borderColor": "#FFFFFFFF",
+      "textColor": "#FFFFFFFF",
+      "tagStyle": "filled"
+      "type": "filter",
+    },
+  ]
+}
