@@ -1,3 +1,4 @@
+
 {
   "groups": [
     {
@@ -6,10 +7,10 @@
       "id": "glang",
       "isExpanded": true,
       "name": "Language"
-    },
+    }
   ],
   "filters": [
-	{
+    {
       "id": "lang_latino",
       "name": "Latino",
       "groupId": "glang",
@@ -32,8 +33,8 @@
       "tagColor": "#FFFFFFFF",
       "borderColor": "#FFFFFFFF",
       "textColor": "#FFFFFFFF",
-      "tagStyle": "filled"
-      "type": "filter",
+      "tagStyle": "filled",
+      "type": "filter"
     }
   ]
 }
