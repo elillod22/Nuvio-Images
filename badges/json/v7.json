@@ -73,7 +73,7 @@
       "imageURL": "https://raw.githubusercontent.com/elillod22/Nuvio-Images/refs/heads/main/badges/resolution/res-sd.png",
       "isEnabled": true,
       "name": "Resolution Other",
-	  "pattern": "(?i)2160p",      
+	  "pattern": "(?i)^(?!.*2160p).+"     
 	  "tagColor": "#18262F",
       "tagStyle": "filled",
       "textColor": "#FFFFFF",
